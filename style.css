@@ -1,1 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@84.7,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
+body{
+    background: radial-gradient( #e774ca,  #e993d9,  #f198ed,  #fbbdfa);
+    font-family: Fredoka;
+}
+
+h1 {
+    color: rgb(162, 202, 241);
+    font-size: 50px;
+    font-family: Kode Mono;
+    text-align: center
+}
+
+h2 {
+    font-family: Kode Mono;
+    color: whitesmoke;
+    font-size: 42px;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 35px;
+}
+h4 {
+    color: whitesmoke;
+    font-size: 35px;
+}
