@@ -14,4 +14,4 @@ for(let i=0; i<botoes.lengyh;i++){
     }
 }
 contadores[0].textContex = "tempoObjetivo1";
-const tempoObjetivo1 = new Date ("2024-12-31")
+const tempoObjetivo1 = new Date ("2024-12-31");
