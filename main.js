@@ -44,3 +44,15 @@ function calculaTempo(tempoObjetivo) {
  
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 }
+function atualizaCronometro(){
+    //laço de repetição para interagir com todos os objetivos
+    for (let i = 0; i < contadores.length; i++){
+        contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela a meta
+    }
+}
+
+function comecaCronometro(){
+    atualizaCronometro(); //chamada da função criada anteriormente dentro desta função
+    setInterval(atualizaCronometro, 1000); //função que faz a contagem do tempo a cada seg.
+}
+comecaCronometro(); //chamada da função que mostra o cronômetro
